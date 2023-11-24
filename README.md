@@ -1,4 +1,4 @@
-# 🎨 Rendering Experiments
+# 🎨 Rendering Experiments using Unity's URP
 
 ## Introduction
 This project presents various experiments with the Universal Render Pipeline renderer features [v. 14.0]
