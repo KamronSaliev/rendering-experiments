@@ -96,3 +96,36 @@ MonoBehaviour:
   m_CopyDepthMode: 0
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 1
+--- !u!114 &8749378196800059212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d25d24bf54c14c3c91e99704e5bcf552, type: 3}
+  m_Name: CustomPostProcessRendererFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  _renderPass:
+    <renderPassEvent>k__BackingField: 300
+    m_ColorStoreActions: 0000000000000000000000000000000000000000000000000000000000000000
+    m_DepthStoreAction: 0
+    m_OverriddenColorStoreActions: 
+    m_OverriddenDepthStoreAction: 0
+    <overrideCameraTarget>k__BackingField: 0
+    <isBlitRenderPass>k__BackingField: 0
+    <useNativeRenderPass>k__BackingField: 0
+    <renderPassQueueIndex>k__BackingField: 6
+    <renderTargetFormat>k__BackingField: 0000000000000000000000000000000000000000000000000000000000000000
+    m_UsesRTHandles: 1
+    m_InputAttachmentIsTransient: 
+    m_Input: 0
+    m_ClearFlag: 0
+    m_ClearColor:
+      r: 0
+      g: 0
+      b: 0
+      a: 1
