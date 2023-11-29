@@ -16,7 +16,7 @@ MonoBehaviour:
   _shader: {fileID: 0}
   _settings:
     _pixelateRate: 10
---- !u!114 &-6696088161312599453
+--- !u!114 &-8384841271673423683
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -25,14 +25,79 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3954a88464442a8bfc2587d0ec51fef, type: 3}
-  m_Name: BlurRendererFeature
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: OutlinesOverlay
   m_EditorClassIdentifier: 
   m_Active: 1
-  _shader: {fileID: 4800000, guid: c928b728faf14ada85fef35093ceab82, type: 3}
-  _settings:
-    _horizontalBlur: 0.001
-    _verticalBlur: 0.001
+  injectionPoint: 600
+  fetchColorBuffer: 1
+  requirements: 6
+  passMaterial: {fileID: 2100000, guid: 9cc5d7883dbfc4b278e3485cabf05d6c, type: 2}
+  passIndex: 0
+  bindDepthStencilAttachment: 0
+  m_Version: 1
+--- !u!114 &-7394110052960305435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: Outlines
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  injectionPoint: 600
+  fetchColorBuffer: 1
+  requirements: 6
+  passMaterial: {fileID: 2100000, guid: c6b9e74a948cd4e16b6819459161c54d, type: 2}
+  passIndex: 0
+  bindDepthStencilAttachment: 0
+  m_Version: 1
+--- !u!114 &-4042585589016617940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: Sepia
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  injectionPoint: 600
+  fetchColorBuffer: 1
+  requirements: 0
+  passMaterial: {fileID: -876546973899608171, guid: 8d071baff1d4140c89cbabb4f660e492,
+    type: 3}
+  passIndex: 0
+  bindDepthStencilAttachment: 0
+  m_Version: 1
+--- !u!114 &-2660835767545393609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: GrayScale
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  injectionPoint: 600
+  fetchColorBuffer: 1
+  requirements: 0
+  passMaterial: {fileID: -876546973899608171, guid: 2cce3599054614da89fcaaad1292490a,
+    type: 3}
+  passIndex: 0
+  bindDepthStencilAttachment: 0
+  m_Version: 1
 --- !u!114 &-1878332245247344467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,6 +133,23 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 3302065f671a8450b82c9ddf07426f3a, type: 3}
   - {fileID: 2800000, guid: 56a77a3e8d64f47b6afe9e3c95cb57d5, type: 3}
   m_Shader: {fileID: 4800000, guid: 0849e84e3d62649e8882e9d6f056a017, type: 3}
+--- !u!114 &-319911775819007387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3954a88464442a8bfc2587d0ec51fef, type: 3}
+  m_Name: Blur
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  _shader: {fileID: 4800000, guid: c928b728faf14ada85fef35093ceab82, type: 3}
+  _settings:
+    _horizontalBlur: 0
+    _verticalBlur: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,8 +168,12 @@ MonoBehaviour:
     hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
   m_RendererFeatures:
   - {fileID: -1878332245247344467}
-  - {fileID: -6696088161312599453}
-  m_RendererFeatureMap: adc0de57c6d2eee5639243704bb712a3
+  - {fileID: -319911775819007387}
+  - {fileID: -2660835767545393609}
+  - {fileID: -4042585589016617940}
+  - {fileID: -7394110052960305435}
+  - {fileID: -8384841271673423683}
+  m_RendererFeatureMap: adc0de57c6d2eee565fad752ef718ffb378ecd95f7cf12db2c1c8d48d3d9e5c7e5fe271f15d86299bdf8dec7490fa38b
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
