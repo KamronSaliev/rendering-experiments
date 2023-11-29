@@ -1123,7 +1123,7 @@
 }
 
 {
-    "m_SGVersion": 2,
+    "m_SGVersion": 3,
     "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
     "m_ObjectId": "471586efeb40ee8e9ce4922432a28d0e",
     "m_Guid": {
@@ -2330,7 +2330,7 @@
 }
 
 {
-    "m_SGVersion": 2,
+    "m_SGVersion": 3,
     "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
     "m_ObjectId": "c2ff2d3445abd38e9e73da9470aa0c44",
     "m_Guid": {
@@ -2579,7 +2579,7 @@
 }
 
 {
-    "m_SGVersion": 2,
+    "m_SGVersion": 3,
     "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
     "m_ObjectId": "ec58c2c864cf56829e24ff0dd9dc7fcf",
     "m_Guid": {
