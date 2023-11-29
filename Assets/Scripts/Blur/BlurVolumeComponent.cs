@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
-namespace RenderingExperiments
+namespace RenderingExperiments.Blur
 {
     [Serializable]
     [VolumeComponentMenuForRenderPipeline("Custom/Blur", typeof(UniversalRenderPipeline))]

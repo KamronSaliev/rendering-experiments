@@ -2,7 +2,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
-namespace RenderingExperiments
+namespace RenderingExperiments.Blur
 {
     public class BlurRendererFeature : ScriptableRendererFeature
     {

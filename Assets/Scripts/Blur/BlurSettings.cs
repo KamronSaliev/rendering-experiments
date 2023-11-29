@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace RenderingExperiments
+namespace RenderingExperiments.Blur
 {
     [Serializable]
     public class BlurSettings

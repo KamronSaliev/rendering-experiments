@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
-namespace RenderingExperiments
+namespace RenderingExperiments.Blur
 {
     public class BlurRenderPass : ScriptableRenderPass
     {
