@@ -77,7 +77,7 @@ MonoBehaviour:
   active: 0
   _horizontalBlur:
     m_OverrideState: 1
-    m_Value: 0.005
+    m_Value: 0.01
   _verticalBlur:
     m_OverrideState: 1
-    m_Value: 0.005
+    m_Value: 0.01
