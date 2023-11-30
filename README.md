@@ -8,22 +8,22 @@ This project presents various experiments with the Universal Render Pipeline ren
 
 ## Media
 <p align="center">
-  <img width="400" alt="Original" src="https://github.com/KamronSaliev/rendering-experiments/assets/39851011/a96a81c6-0a1c-4e94-9e33-a90f3964d38b">
+  <img width="400" alt="Original" src="./Preview/Original.gif">
   &nbsp
-  <img width="400" alt="Blur" src="https://github.com/KamronSaliev/rendering-experiments/assets/39851011/0da87481-c9fa-47f6-98cc-8cb2f61add06">
+  <img width="400" alt="Blur" src="./Preview/Blur.gif">
 </p>
 <p align="center">
-  <img width="400" alt="Grayscale" src="https://github.com/KamronSaliev/rendering-experiments/assets/39851011/b87cce37-3e35-42e3-81e8-d29ad0d1d075">
+  <img width="400" alt="Grayscale" src="./Preview/Grayscale.gif">
   &nbsp
-  <img width="400" alt="Sepia" src="https://github.com/KamronSaliev/rendering-experiments/assets/39851011/81e1a3bf-638e-442b-9b24-3788e5fa501e">
+  <img width="400" alt="Sepia" src="./Preview/Sepia.gif">
 </p>
 <p align="center">
-  <img width="400" alt="Outline" src="https://github.com/KamronSaliev/rendering-experiments/assets/39851011/8a86e72d-3032-40f0-a11e-ef411d80ee7b">
+  <img width="400" alt="Outline" src="./Preview/Outline.gif">
   &nbsp
-  <img width="400" alt="OutlineOverlay" src="https://github.com/KamronSaliev/rendering-experiments/assets/39851011/7e142892-1915-433a-a48c-c3dfb542a671">
+  <img width="400" alt="OutlineOverlay" src="./Preview/OutlineOverlay.gif">
 </p>
 <p align="center">
-  <img width="400" alt="Pixel" src="https://github.com/KamronSaliev/rendering-experiments/assets/39851011/522ab7ba-dd47-4183-97a9-3af3d7880e8f">
+  <img width="400" alt="Pixel" src="./Preview/Pixel.gif">
   &nbsp
-  <img width="400" alt="Toon" src="https://github.com/KamronSaliev/rendering-experiments/assets/39851011/dbb86007-890b-4137-8f81-2f72727f2303">
+  <img width="400" alt="Toon" src="./Preview/Toon.gif">
 </p>
