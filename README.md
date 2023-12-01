@@ -13,9 +13,9 @@ This project presents various experiments with the Universal Render Pipeline ren
   <img width="400" alt="Blur" src="https://github.com/KamronSaliev/rendering-experiments/assets/39851011/c1db336f-ede2-4e6c-99a9-0d90534f31e0">
 </p>
 <p align="center">
-  <img width="400" alt="Grayscale" src="https://github.com/KamronSaliev/rendering-experiments/assets/39851011/bcdae193-f3c4-433c-8e27-875116adbc6d">
-  &nbsp
   <img width="400" alt="Sepia" src="https://github.com/KamronSaliev/rendering-experiments/assets/39851011/230f4aec-b730-4431-986f-0a0dd0a804e0">
+  &nbsp
+  <img width="400" alt="NightVision" src="https://github.com/KamronSaliev/rendering-experiments/assets/39851011/9aba405d-4901-4356-9815-7db626c2b679">
 </p>
 <p align="center">
   <img width="400" alt="Outline" src="https://github.com/KamronSaliev/rendering-experiments/assets/39851011/de54de4a-ab04-4585-9f14-01d81e48116c">
