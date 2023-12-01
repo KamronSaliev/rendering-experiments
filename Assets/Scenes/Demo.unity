@@ -386,7 +386,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff8ec50d03c060e499de7a9482b7b134, type: 3}
   m_Name: 
@@ -456,6 +456,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Planet
       objectReference: {fileID: 0}
+    - target: {fileID: 3918606591416710061, guid: d6f74f2b0674b42599f31d50c86b3b80,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3918606591416710061, guid: d6f74f2b0674b42599f31d50c86b3b80,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3918606591416710061, guid: d6f74f2b0674b42599f31d50c86b3b80,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5540716138458859042, guid: d6f74f2b0674b42599f31d50c86b3b80,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -504,6 +519,11 @@ PrefabInstance:
     - target: {fileID: 5540716138458859042, guid: d6f74f2b0674b42599f31d50c86b3b80,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460455408705280747, guid: d6f74f2b0674b42599f31d50c86b3b80,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
