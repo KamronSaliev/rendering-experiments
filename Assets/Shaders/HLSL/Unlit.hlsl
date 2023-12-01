@@ -32,6 +32,8 @@ int _Steps;
 int _OutlineType;
 float _OutlineThickness;
 float4 _OutlineOffset;
+float4 _OutlineColor;
+float4 _OutlineTwoColor;
 float _Brightness;
 float _Smoothness;
 float _NoiseScale;
@@ -126,7 +128,7 @@ Varyings InverseVert(Attributes IN)
     
     if (_OutlineType == 0)
     {
-        //Vertex Scaling
+        // Vertex Scaling
         float3 pos = IN.position.xyz * _OutlineThickness;
         clipPosition = TransformObjectToHClip(pos);
         clipPosition += _OutlineOffset;
@@ -186,11 +188,11 @@ Varyings InverseVertTwo(Attributes IN)
 // First outline color
 half4 Outline(Varyings input) : SV_Target
 { 
-    return 0;
+    return _OutlineColor;
 }
 
 // Second outline color
 half4 OutlineTwo(Varyings input) : SV_Target
 {
-    return 1;
+    return _OutlineTwoColor;
 }

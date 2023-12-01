@@ -11,6 +11,8 @@ Shader "Custom/ToonMaster"
         _OutlineThickness("Outline Thickness", Float) = 1
         _OutlineType("Outline Type", Integer) = 0
         _OutlineOffset("Outline Offset", Vector) = (0, 0, 0, 0)
+        [HDR]_OutlineColor("Outline Color", Color) = (1, 1, 1, 0)
+        [HDR]_OutlineTwoColor("Outline Two Color", Color) = (1, 1, 1, 0)
         _Steps("Steps", Integer) = 2
         _Smoothness("Smoothness", Range(0, 1)) = 1
         [HDR]_SpecularColor("Specular Color", Color) = (1, 1, 1, 0)
@@ -70,6 +72,26 @@ Shader "Custom/ToonMaster"
             ENDHLSL
         }
 
+        // Outline pass 2
+        Pass
+        {
+            Name "Outline Two"
+            Tags
+            {
+                "LightMode" = "Outline Two"
+            }
+            Cull Front
+            Blend One Zero
+            ZTest LEqual
+            ZWrite On
+
+            HLSLPROGRAM
+            #include "Assets/Shaders/HLSL/Unlit.hlsl"
+            #pragma vertex InverseVertTwo;
+            #pragma fragment OutlineTwo;
+            ENDHLSL
+        }
+
         // Additional pass for light calculations
         Pass
         {
@@ -103,7 +125,7 @@ Shader "Custom/ToonMaster"
 
             HLSLPROGRAM
             #include "Packages/com.unity.render-pipelines.universal/Shaders/LitDepthNormalsPass.hlsl"
-            
+
             #pragma exclude_renderers gles gles3 glcore
             #pragma target 4.5
             #pragma vertex DepthNormalsVertex
