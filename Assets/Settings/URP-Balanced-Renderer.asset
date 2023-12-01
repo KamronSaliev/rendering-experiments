@@ -1,5 +1,26 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9168156901970284863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: NightVision
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  injectionPoint: 600
+  fetchColorBuffer: 1
+  requirements: 0
+  passMaterial: {fileID: -876546973899608171, guid: 98b2f149f55cf455da918bd2fb812927,
+    type: 3}
+  passIndex: 0
+  bindDepthStencilAttachment: 0
+  m_Version: 1
 --- !u!114 &-9087067572975672325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72,48 +93,6 @@ MonoBehaviour:
   _lightModePasses:
   - Outline
   - Outline Two
---- !u!114 &-4920125001821162409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
-  m_Name: PixelRendererFeature
-  m_EditorClassIdentifier: 
-  m_Active: 0
-  injectionPoint: 600
-  fetchColorBuffer: 1
-  requirements: 4
-  passMaterial: {fileID: -876546973899608171, guid: b0a59f10a011a41519eb69d08394c97a,
-    type: 3}
-  passIndex: 0
-  bindDepthStencilAttachment: 0
-  m_Version: 1
---- !u!114 &-4070847575169425582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
-  m_Name: PixelSimplifiedRendererFeature
-  m_EditorClassIdentifier: 
-  m_Active: 0
-  injectionPoint: 600
-  fetchColorBuffer: 1
-  requirements: 4
-  passMaterial: {fileID: -876546973899608171, guid: 2f4665ab29feb41139d0b30ed6964ece,
-    type: 3}
-  passIndex: 0
-  bindDepthStencilAttachment: 0
-  m_Version: 1
 --- !u!114 &-4042585589016617940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,10 +210,10 @@ MonoBehaviour:
   - {fileID: -4042585589016617940}
   - {fileID: -7394110052960305435}
   - {fileID: -8384841271673423683}
-  - {fileID: -4920125001821162409}
-  - {fileID: -4070847575169425582}
   - {fileID: -4988477987792059926}
-  m_RendererFeatureMap: adc0de57c6d2eee565fad752ef718ffb378ecd95f7cf12db2c1c8d48d3d9e5c7e5fe271f15d86299bdf8dec7490fa38b5774eef76034b8bb521f44dbb27181c7ea81cc3fb35dc5ba
+  - {fileID: 8970916267541702433}
+  - {fileID: -9168156901970284863}
+  m_RendererFeatureMap: adc0de57c6d2eee565fad752ef718ffb378ecd95f7cf12db2c1c8d48d3d9e5c7e5fe271f15d86299bdf8dec7490fa38bea81cc3fb35dc5ba21a798bcd0187f7cc1ee0365df29c480
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -277,3 +256,24 @@ MonoBehaviour:
   m_CopyDepthMode: 0
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 1
+--- !u!114 &8970916267541702433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: Pixel
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  injectionPoint: 600
+  fetchColorBuffer: 1
+  requirements: 0
+  passMaterial: {fileID: -876546973899608171, guid: 2f4665ab29feb41139d0b30ed6964ece,
+    type: 3}
+  passIndex: 0
+  bindDepthStencilAttachment: 0
+  m_Version: 1
