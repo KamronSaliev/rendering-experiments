@@ -7,8 +7,9 @@ namespace RenderingExperiments.RendererControl
         Grayscale,
         Sepia,
         NightVision,
-        Outline,
+        Outlines,
         OutlineOverlay,
-        Pixel
+        Pixel,
+        Retro
     }
 }

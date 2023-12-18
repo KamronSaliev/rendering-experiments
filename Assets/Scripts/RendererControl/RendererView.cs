@@ -10,18 +10,15 @@ namespace RenderingExperiments.RendererControl
         // Used for serialization
         [SerializeField] private RendererViewType _rendererViewType;
         [SerializeField] private ScriptableRendererFeature _scriptableRendererFeature;
-        [SerializeField] private bool _isActive;
 
         public RendererView
         (
             RendererViewType rendererViewType,
-            ScriptableRendererFeature scriptableRendererFeature,
-            bool isActive
+            ScriptableRendererFeature scriptableRendererFeature
         )
         {
             _rendererViewType = rendererViewType;
             _scriptableRendererFeature = scriptableRendererFeature;
-            _isActive = isActive;
         }
     }
 }

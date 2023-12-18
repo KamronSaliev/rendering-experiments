@@ -93,11 +93,9 @@ namespace RenderingExperiments.RendererControl.Editor
                     var element = _rendererViewsProperty.GetArrayElementAtIndex(_rendererViewsProperty.arraySize - 1);
 
                     var rendererViewType = (RendererViewType)Enum.Parse(typeof(RendererViewType), rendererViewTypeName);
-                    var isActive = rendererFeature.isActive;
 
                     element.FindPropertyRelative("_rendererViewType").enumValueIndex = (int)rendererViewType;
                     element.FindPropertyRelative("_scriptableRendererFeature").objectReferenceValue = rendererFeature;
-                    element.FindPropertyRelative("_isActive").boolValue = isActive;
 
                     Debug.Log($"Added {rendererViewTypeName}");
                 }

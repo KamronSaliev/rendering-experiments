@@ -564,35 +564,27 @@ MonoBehaviour:
   - _rendererViewType: 1
     _scriptableRendererFeature: {fileID: -319911775819007387, guid: e634585d5c4544dd297acaee93dc2beb,
       type: 2}
-    _isActive: 0
   - _rendererViewType: 2
     _scriptableRendererFeature: {fileID: -2660835767545393609, guid: e634585d5c4544dd297acaee93dc2beb,
       type: 2}
-    _isActive: 0
   - _rendererViewType: 3
     _scriptableRendererFeature: {fileID: -4042585589016617940, guid: e634585d5c4544dd297acaee93dc2beb,
       type: 2}
-    _isActive: 0
   - _rendererViewType: 5
     _scriptableRendererFeature: {fileID: -7394110052960305435, guid: e634585d5c4544dd297acaee93dc2beb,
       type: 2}
-    _isActive: 0
-  - _rendererViewType: 5
-    _scriptableRendererFeature: {fileID: -8384841271673423683, guid: e634585d5c4544dd297acaee93dc2beb,
-      type: 2}
-    _isActive: 0
   - _rendererViewType: 6
     _scriptableRendererFeature: {fileID: -8384841271673423683, guid: e634585d5c4544dd297acaee93dc2beb,
       type: 2}
-    _isActive: 0
   - _rendererViewType: 7
     _scriptableRendererFeature: {fileID: 8970916267541702433, guid: e634585d5c4544dd297acaee93dc2beb,
       type: 2}
-    _isActive: 0
   - _rendererViewType: 4
     _scriptableRendererFeature: {fileID: -9168156901970284863, guid: e634585d5c4544dd297acaee93dc2beb,
       type: 2}
-    _isActive: 0
+  - _rendererViewType: 8
+    _scriptableRendererFeature: {fileID: 4214707014907250561, guid: e634585d5c4544dd297acaee93dc2beb,
+      type: 2}
   _rendererViewType: 4
 --- !u!4 &1602578064
 Transform:

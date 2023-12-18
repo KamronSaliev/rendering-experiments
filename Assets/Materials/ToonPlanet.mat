@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ToonPlaner
+  m_Name: ToonPlanet
   m_Shader: {fileID: 4800000, guid: 11abf43640564eae86c654c4652f3824, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
