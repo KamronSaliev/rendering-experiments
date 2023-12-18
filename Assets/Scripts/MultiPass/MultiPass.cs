@@ -4,11 +4,11 @@ using UnityEngine.Rendering.Universal;
 
 namespace RenderingExperiments.MultiPass
 {
-    public class MultiPassPass : ScriptableRenderPass
+    public class MultiPass : ScriptableRenderPass
     {
         private readonly List<ShaderTagId> _shaderTags;
 
-        public MultiPassPass(List<string> tags)
+        public MultiPass(List<string> tags)
         {
             _shaderTags = new List<ShaderTagId>();
             

@@ -8,7 +8,7 @@ namespace RenderingExperiments.MultiPass
     {
         [SerializeField] private List<string> _lightModePasses;
 
-        private MultiPassPass _multiPass;
+        private MultiPass _multiPass;
 
         public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)
         {
@@ -17,7 +17,7 @@ namespace RenderingExperiments.MultiPass
 
         public override void Create()
         {
-            _multiPass = new MultiPassPass(_lightModePasses);
+            _multiPass = new MultiPass(_lightModePasses);
         }
     }
 }
