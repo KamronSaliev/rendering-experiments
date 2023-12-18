@@ -7,10 +7,10 @@ This project presents various experiments with the Universal Render Pipeline ren
 `Unity` `C#` `URP` `ShaderGraph` `HLSL` `Cg`
 
 ## Features
-`Renderer Control` gameobject can enable/disable renderer features added to the data of the project's URP asset
+`Renderer Control` game object can enable/disable renderer features added to the data of the project's URP asset
 
 <p align="center">
-  <img width="500" alt="Renderer Control" src="https://github.com/KamronSaliev/rendering-experiments/assets/39851011/8bedb7b9-8be6-48db-9484-ff3c8ed75374">
+  <img width="600" alt="Renderer Control" src="https://github.com/KamronSaliev/rendering-experiments/assets/39851011/8bedb7b9-8be6-48db-9484-ff3c8ed75374">
 </p>
 
 ## Media
